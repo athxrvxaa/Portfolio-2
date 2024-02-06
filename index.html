@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://github.com/athxrvxaa/Portfolio.git">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav id="dt-nav">
+      <div class="logo">Atharva Raskar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#nav"></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Atharva Raskar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-cont">
+        <img
+          src="./assets/WhatsApp Image 2024-02-03 at 02.28.20.jpeg"
+          alt="haha"
+          class="borderr"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello,I'm</p>
+        <h1 class="title">Atharva Raskar</h1>
+        <p class="section__text__p2">An Frontend Dev.</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/profile.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info.
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="Linkedin"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/atharva-raskar-384a031b1/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="Github"
+            class="icon"
+            onclick="location.href='https://github.com/athxrvxaa'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-cont">
+        <div class="section__pic-cont">
+          <img
+            src="./assets/WhatsApp Image 2024-02-05 at 23.24.10.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-det-cont">
+          <div class="about-cont">
+            <div class="det-cont">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>0 years <br /></p>
+            </div>
+            <div class="det-cont">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Computer science<br /></p>
+            </div>
+          </div>
+          <div class="text-cont">
+            <p>
+              Enthusiastic developer with expertise in Python, C++, OOP, and database management. Aiming to excel as a frontend developer, proficient in crafting dynamic web solutions using HTML and CSS. Committed to creating engaging user interfaces and passionate about staying at the forefront of emerging technologies. Ready to contribute creativity and technical skills to elevate the user experience.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Workspace</h1>
+      <div class="experience-det-cont">
+        <div class="about-cont">
+          <div class="det-cont">
+            <h2 class="exp-sub-title">Frontend developement</h2>
+            <div class="article-cont">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Html</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Html</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="det-cont">
+            <h2 class="exp-sub-title">Backend developement</h2>
+            <div class="article-cont">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="checkmark"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node js</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Brouse My</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-det-cont">
+        <div class="about-cont">
+        <div class="det-cont color-cont">
+          <div class="article-cont">
+            <img src="./assets/Bagan Myanmar - All my travel tips to visit the ancient city of Bagan in Myanmar.jpg" alt="" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title projct-title">Places</h2>
+          <div class="btn-cont">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/athxrvxaa/PLACES'"
+            >
+              github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://athxrvxaaplaces.000webhostapp.com'"
+            >
+              Live demo
+            </button>
+           
+          </div>
+        </div>
+        <div class="det-cont color-cont">
+          <div class="article-cont">
+            <img src="./assets/多分たんぶら.jpg" alt="" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title projct-title">cat web</h2>
+          <div class="btn-cont">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/athxrvxaa/catcat-web'"
+            >
+              github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/'"
+            >
+              Live demo
+            </button>
+           
+          </div>
+        </div>
+        <div class="det-cont color-cont">
+          <div class="article-cont">
+            <img src="./assets/netflix.png" alt="" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title projct-title">Netflix Clone</h2>
+          <div class="btn-cont">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/athxrvxaa/Netflix'"
+            >
+              github
+            </button>
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://atharvaplaces.000webhostapp.com/'"
+            >
+              Live demo
+            </button>
+           
+          </div>
+        </div>
+      </div>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='./#contact'"
+    />
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-cont">
+        <div class="contact-info-cont">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:atharvaraskar44@gmail.com">atharvaraskar44@gmail.com</a></p>
+        </div>
+        <div class="contact-info-cont">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+      
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-cont">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>THANK YOU!!!</p>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow rev"
+        onclick="location.href='./#'"
+      />
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
